@@ -1,0 +1,156 @@
+h2,
+h3 {
+  color: #8bf5fa;
+  font-family: "Reddit Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+}
+h1 {
+  color: #3f979b;
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: Light;
+}
+p {
+  color: #8bf5fa;
+  font-family: "Reddit Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: normal;
+}
+a {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+}
+.navbar-container {
+  display: flex;
+  position: fixed;
+  flex-direction: row;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px;
+  margin: 0 auto;
+  justify-content: space-between;
+  z-index: 999;
+  background: #3f979b;
+  font-size: 1.5rem;
+}
+.top-nav {
+  padding-right: 10px;
+}
+#navbar-padding {
+  padding-right: 10px;
+}
+
+.hero-container {
+  display: grid;
+  grid-template-rows: 5fr;
+  margin-top: 2rem;
+
+  height: 50vh;
+  background: url(./images/Hero-headphones.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.audio-player {
+  display: flex;
+  align-items: flex-end;
+}
+.hero-content {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.about-me-container {
+  background-color: #205e61;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 6fr;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.about-me-box1 {
+  grid-area: 1 / 1 / span 2 / 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px 10px 20px;
+}
+
+.about-me-box2 {
+  grid-area: 1 /2/ 1 / span 2;
+  display: flex;
+}
+
+.about-me-box3 {
+  grid-area: 2 /2 / span 1 / span 1;
+  display: flex;
+}
+.pipsi-logo {
+  border-radius: 50%;
+  padding: 0px;
+  margin: 0px;
+}
+a:link {
+  text-decoration: none;
+  color: #f9f54b;
+}
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
+
+.carousel-container {
+  background-color: #205e61;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel {
+  margin-bottom: 2rem;
+  width: 80%;
+}
+
+.contact-me-container {
+  background-color: #205e61;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.contact-button {
+  margin-top: 30px;
+  width: 200px;
+  padding: 20px;
+  background-color: #3f979b;
+  border-radius: 100px;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  border-color: #8bf5fa;
+  color: #f9f54b;
+
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: light;
+  font-style: normal;
+}
+
+footer {
+  background-color: #205e61;
+  color: #f9f54b;
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: lighter;
+}
